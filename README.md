@@ -1,60 +1,16 @@
-# p5.js Template
+# I chose Beijing Air Quality as the subject of my visualization.
 
-This is a README file that can be used to describe and document your assignment.
+### The first idea that popped into my mind was to use 'month' as the horizontal x-axis, ranging from 1 to 12 months from left to right, and 'day1' to 'day31' vertically from bottom to top. The PM2.5 concentration would be represented by the size of circles.
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+I attempted to use the `state()` function, which we learned in class,
 
----
----
+### to differentiate the data for four years using different colors:
+2010 - red
+2011 - yellow
+2012 - green
+2013 - blue
+2014 - purple
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+#### Struggles
 
-**bold text**
-
-*italicized text*
-
-~~strikethrough text~~
-
-Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-Unordered List:
-- First item
-- Second item
-- Third item
-
-`short code block`
-
-```
-extended code block
-fun() {
-  return 0
-}
-```
-
-Link:  
-[linked text](https://www.example.com)
-
-
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
-
-
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+One of the biggest challenges I faced was how to separate the data for different years. I initially tried using 'year = 2011', but my attempts were unsuccessful. After researching and finding relevant information, I discovered that '==' is the correct way to perform conditional checks, and finally, I succeeded!
